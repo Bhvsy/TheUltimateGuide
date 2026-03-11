@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>The Ultimate Guide -- Bhavishya Parjapati | Digital Architect · Master Trader · Founder of Bhvsy OS</title>
+  <meta name="description" content="The definitive guide to Bhavishya Parjapati -- Digital Architect, Master Trader, Tool Builder, and Founder of Bhvsy OS. Explore the complete ecosystem: trading infrastructure, AI lab, custom tools, and the philosophy behind it all." />
+  <meta name="author" content="Bhavishya Parjapati" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <link rel="canonical" href="https://bhvsy.github.io/TheUltimateGuide" />
+  <meta name="keywords" content="Bhavishya Parjapati, Bhvsy OS, Digital Architect, Master Trader, Tool Builder, Institutional Trader, Algo Dev, News Guard Extension, AI Trading Journal, prop trading, Forex trader, Crypto trader, developer portfolio" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:site_name" content="Bhvsy OS" />
+  <meta property="og:title" content="The Ultimate Guide -- Bhavishya Parjapati" />
+  <meta property="og:description" content="Digital Architect · Master Trader · Tool Builder · Founder of Bhvsy OS. The definitive guide to the entire ecosystem." />
+  <meta property="og:url" content="https://bhvsy.github.io/TheUltimateGuide" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="profile:first_name" content="Bhavishya" />
+  <meta property="profile:last_name" content="Parjapati" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="The Ultimate Guide -- Bhavishya Parjapati" />
+  <meta name="twitter:description" content="Digital Architect · Master Trader · Founder of Bhvsy OS. The complete guide." />
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#030308" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "The Ultimate Guide -- Bhavishya Parjapati",
+    "url": "https://bhvsy.github.io/TheUltimateGuide",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Bhavishya Parjapati",
+      "url": "https://bhvsy.github.io",
+      "jobTitle": "Digital Architect & Founder of Bhvsy OS",
+      "knowsAbout": [
+        "Forex Trading", "Cryptocurrency Trading", "Price Action",
+        "Institutional Order Flow", "Supply and Demand Trading",
+        "Web Development", "Chrome Extensions", "Progressive Web Apps",
+        "Stable Diffusion", "LoRA Training", "AI Inference",
+        "Algorithmic Trading Systems"
+      ]
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Bhvsy OS",
+      "url": "https://bhvsy.github.io"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bhvsy.github.io" },
+        { "@type": "ListItem", "position": 2, "name": "The Ultimate Guide", "item": "https://bhvsy.github.io/TheUltimateGuide" }
+      ]
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg-void:      #030308;
+      --bg-card:      #080c1c;
+      --bg-card-alt:  #0a0f22;
+      --border-glass: rgba(0, 240, 255, 0.1);
+      --border-hover: rgba(0, 240, 255, 0.3);
+      --cyan:         #00f0ff;
+      --cyan-dim:     #00f0ff99;
+      --purple:       #a855f7;
+      --green:        #34d399;
+      --amber:        #fbbf24;
+      --red:          #f23645;
+      --magenta:      #f472b6;
+      --nvidia:       #76b900;
+      --text-primary: #e4e8f1;
+      --text-muted:   #7a8ba7;
+      --text-dim:     #4a5568;
+      --font-display: 'Space Grotesk', sans-serif;
+      --font-body:    'Inter', sans-serif;
+      --font-mono:    'JetBrains Mono', monospace;
+    }
+
+    html { scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: var(--cyan-dim) var(--bg-void); }
+
+    body {
+      font-family: var(--font-body); background: var(--bg-void);
+      color: var(--text-primary); min-height: 100vh;
+      overflow-x: hidden; line-height: 1.6; -webkit-font-smoothing: antialiased;
+    }
+
+    .bg-ambient {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      transform: translateZ(0); will-change: transform;
+      background:
+        linear-gradient(rgba(0,240,255,0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,240,255,0.02) 1px, transparent 1px),
+        radial-gradient(ellipse 800px 600px at 15% 8%, rgba(0,240,255,0.05), transparent),
+        radial-gradient(ellipse 600px 500px at 85% 50%, rgba(168,85,247,0.04), transparent),
+        radial-gradient(ellipse 500px 400px at 50% 95%, rgba(0,240,255,0.03), transparent);
+      background-size: 60px 60px, 60px 60px, 100% 100%, 100% 100%, 100% 100%;
+    }
+
+    .page-wrapper { position: relative; z-index: 1; max-width: 1060px; margin: 0 auto; padding: 0 24px 100px; }
+
+    /* ═══ NAV ═══ */
+    .top-nav {
+      position: sticky; top: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 24px; background: rgba(3,3,8,0.94);
+      border-bottom: 1px solid var(--border-glass); margin: 0 -24px 0;
+    }
+    .nav-brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .nav-logo { width: 34px; height: 34px; border-radius: 8px; object-fit: contain; }
+    .nav-brand-text { display: flex; flex-direction: column; gap: 1px; }
+    .nav-brand-name { font-family: var(--font-display); font-size: 16px; font-weight: 700; color: #fff; letter-spacing: -0.3px; }
+    .nav-brand-sub { font-family: var(--font-mono); font-size: 9.5px; color: var(--text-dim); letter-spacing: 1.5px; text-transform: uppercase; }
+    .nav-home-btn {
+      display: inline-flex; align-items: center; gap: 8px; padding: 9px 22px;
+      font-family: var(--font-mono); font-size: 12px; font-weight: 600;
+      letter-spacing: 1px; text-transform: uppercase; text-decoration: none;
+      color: var(--cyan); background: rgba(0,240,255,0.06);
+      border: 1px solid rgba(0,240,255,0.2); border-radius: 10px;
+      transition: background 0.25s ease, border-color 0.25s ease;
+    }
+    .nav-home-btn:hover { background: rgba(0,240,255,0.12); border-color: rgba(0,240,255,0.45); }
+    .nav-home-btn svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+    /* ═══ HERO SECTION ═══ */
+    .hero {
+      padding: 100px 0 80px; text-align: center;
+      position: relative;
+    }
+
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px; padding: 8px 22px;
+      font-family: var(--font-mono); font-size: 11px; font-weight: 500;
+      text-transform: uppercase; letter-spacing: 3px; color: var(--cyan);
+      background: rgba(0,240,255,0.06); border: 1px solid rgba(0,240,255,0.15);
+      border-radius: 999px; margin-bottom: 32px;
+    }
+    .hero-badge::before {
+      content: ''; width: 6px; height: 6px; background: var(--cyan);
+      border-radius: 50%; animation: pulse-dot 2.5s ease-in-out infinite;
+    }
+    @keyframes pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+    .hero-name {
+      font-family: var(--font-display); font-size: clamp(38px, 7vw, 72px);
+      font-weight: 800; letter-spacing: -3px; line-height: 1.05;
+      color: #fff; margin-bottom: 20px;
+    }
+    .hero-name .glow {
+      background: linear-gradient(135deg, var(--cyan) 0%, var(--purple) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+
+    .hero-titles {
+      display: flex; align-items: center; justify-content: center;
+      flex-wrap: wrap; gap: 8px 20px; margin-bottom: 32px;
+    }
+    .hero-title-item {
+      font-family: var(--font-mono); font-size: 12px; font-weight: 500;
+      letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-muted);
+    }
+    .hero-title-sep { color: var(--text-dim); font-size: 14px; }
+
+    .hero-tagline {
+      font-size: 17px; color: var(--text-muted); max-width: 640px;
+      margin: 0 auto 44px; line-height: 1.7;
+    }
+    .hero-tagline strong { color: #fff; font-weight: 600; }
+
+    .hero-cta-row { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 14px; }
+
+    .cta-primary {
+      display: inline-flex; align-items: center; gap: 10px; padding: 14px 36px;
+      font-family: var(--font-mono); font-size: 13px; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase; text-decoration: none;
+      color: var(--bg-void); background: linear-gradient(135deg, var(--cyan), #38bdf8);
+      border-radius: 12px; transition: opacity 0.25s ease, transform 0.25s ease;
+    }
+    .cta-primary:hover { opacity: 0.88; transform: translateY(-2px); }
+
+    .cta-secondary {
+      display: inline-flex; align-items: center; gap: 10px; padding: 14px 36px;
+      font-family: var(--font-mono); font-size: 13px; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase; text-decoration: none;
+      color: var(--cyan); background: rgba(0,240,255,0.06);
+      border: 1px solid rgba(0,240,255,0.2); border-radius: 12px;
+      transition: background 0.25s ease, border-color 0.25s ease;
+    }
+    .cta-secondary:hover { background: rgba(0,240,255,0.12); border-color: rgba(0,240,255,0.4); }
+
+    /* Hero stat strip */
+    .hero-stats {
+      display: flex; justify-content: center; flex-wrap: wrap; gap: 40px;
+      margin-top: 56px; padding-top: 40px;
+      border-top: 1px solid rgba(255,255,255,0.04);
+    }
+    .hero-stat { text-align: center; }
+    .hero-stat-num {
+      font-family: var(--font-display); font-size: 32px; font-weight: 700;
+      line-height: 1.1; margin-bottom: 4px;
+    }
+    .hero-stat-num.cy { color: var(--cyan); }
+    .hero-stat-num.pu { color: var(--purple); }
+    .hero-stat-num.gr { color: var(--green); }
+    .hero-stat-num.am { color: var(--amber); }
+    .hero-stat-label {
+      font-family: var(--font-mono); font-size: 10px; color: var(--text-dim);
+      letter-spacing: 1.5px; text-transform: uppercase;
+    }
+
+    /* ═══ SECTION DIVIDER ═══ */
+    .section-divider {
+      display: flex; align-items: center; gap: 16px; margin: 64px 0 40px;
+    }
+    .section-divider::before, .section-divider::after {
+      content: ''; flex: 1; height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(0,240,255,0.1), transparent);
+    }
+    .section-divider .div-label {
+      font-family: var(--font-mono); font-size: 10px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 3px; color: var(--text-dim);
+      white-space: nowrap;
+    }
+    .section-divider .div-num {
+      font-family: var(--font-mono); font-size: 10px;
+      color: var(--cyan); margin-right: 8px;
+    }
+
+    /* ═══ ABOUT SECTION ═══ */
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 16px; }
+
+    .about-card {
+      background: var(--bg-card); border: 1px solid var(--border-glass);
+      border-radius: 16px; padding: 28px; transition: border-color 0.3s ease;
+      position: relative; overflow: hidden;
+    }
+    .about-card:hover { border-color: var(--border-hover); }
+    .about-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px;
+      opacity: 0; transition: opacity 0.3s ease;
+      background: linear-gradient(90deg, transparent, rgba(0,240,255,0.2), transparent);
+    }
+    .about-card:hover::before { opacity: 1; }
+
+    .about-card.full-width { grid-column: 1 / -1; }
+
+    .about-card h2 {
+      font-family: var(--font-mono); font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 2px; color: var(--text-dim);
+      margin-bottom: 18px; display: flex; align-items: center; gap: 8px;
+    }
+    .about-card h2 .emoji { font-style: normal; font-size: 14px; }
+
+    .about-card p {
+      font-size: 14px; line-height: 1.85; color: var(--text-muted);
+    }
+    .about-card p strong { color: var(--text-primary); font-weight: 500; }
+
+    .about-card .highlight-block {
+      margin-top: 18px; padding: 16px 20px;
+      background: rgba(0,240,255,0.03); border: 1px solid rgba(0,240,255,0.08);
+      border-radius: 10px; font-family: var(--font-mono); font-size: 12px;
+      color: var(--text-muted); line-height: 1.7;
+    }
+    .highlight-block .hl { color: var(--cyan); font-weight: 600; }
+
+    /* Identity rows */
+    .id-row {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .id-row:last-child { border-bottom: none; }
+    .id-label { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); letter-spacing: 0.5px; }
+    .id-value { font-family: var(--font-mono); font-size: 12px; color: #fff; font-weight: 600; text-align: right; }
+    .id-value.cy { color: var(--cyan); }
+    .id-value.pu { color: var(--purple); }
+    .id-value.gr { color: var(--green); }
+    .id-value.am { color: var(--amber); }
+
+    /* ═══ EXPERTISE GRID ═══ */
+    .expertise-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 16px;
+    }
+
+    .exp-card {
+      background: var(--bg-card); border: 1px solid var(--border-glass);
+      border-radius: 14px; padding: 24px 20px; text-align: center;
+      transition: border-color 0.3s ease, transform 0.3s ease;
+    }
+    .exp-card:hover { border-color: var(--border-hover); transform: translateY(-3px); }
+
+    .exp-icon { font-size: 28px; margin-bottom: 14px; display: block; }
+    .exp-title { font-family: var(--font-display); font-size: 14px; font-weight: 600; color: #fff; margin-bottom: 6px; }
+    .exp-desc { font-family: var(--font-mono); font-size: 9.5px; color: var(--text-dim); line-height: 1.7; letter-spacing: 0.3px; }
+
+    /* ═══ TRADING PROFILE ═══ */
+    .trading-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 16px; }
+
+    .trading-card {
+      background: var(--bg-card); border: 1px solid var(--border-glass);
+      border-radius: 16px; padding: 28px; transition: border-color 0.3s ease;
+    }
+    .trading-card:hover { border-color: var(--border-hover); }
+    .trading-card h2 {
+      font-family: var(--font-mono); font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 2px; color: var(--text-dim); margin-bottom: 20px;
+    }
+
+    .pair-row {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 16px; margin-bottom: 10px;
+      background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.04);
+      border-radius: 10px; transition: border-color 0.2s ease;
+    }
+    .pair-row:hover { border-color: var(--border-glass); }
+    .pair-row:last-child { margin-bottom: 0; }
+
+    .pair-name { font-family: var(--font-display); font-size: 16px; font-weight: 700; color: #fff; }
+    .pair-market {
+      font-family: var(--font-mono); font-size: 9px; font-weight: 700;
+      letter-spacing: 1.2px; text-transform: uppercase; padding: 3px 10px;
+      border-radius: 999px;
+    }
+    .pm-forex { color: var(--amber); background: rgba(251,191,36,0.08); border: 1px solid rgba(251,191,36,0.12); }
+    .pm-crypto { color: #f7931a; background: rgba(247,147,26,0.08); border: 1px solid rgba(247,147,26,0.12); }
+
+    /* ═══ ECOSYSTEM MAP ═══ */
+    .eco-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 16px; }
+
+    .eco-card {
+      background: var(--bg-card); border: 1px solid var(--border-glass);
+      border-radius: 16px; padding: 26px 22px; text-decoration: none;
+      transition: border-color 0.3s ease, transform 0.3s ease;
+      display: flex; flex-direction: column; position: relative; overflow: hidden;
+    }
+    .eco-card:hover { border-color: var(--border-hover); transform: translateY(-3px); }
+    .eco-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      opacity: 0; transition: opacity 0.3s ease;
+    }
+    .eco-card:hover::before { opacity: 1; }
+    .eco-card:nth-child(1)::before { background: linear-gradient(90deg, transparent, var(--cyan), transparent); }
+    .eco-card:nth-child(2)::before { background: linear-gradient(90deg, transparent, var(--green), transparent); }
+    .eco-card:nth-child(3)::before { background: linear-gradient(90deg, transparent, var(--purple), transparent); }
+    .eco-card:nth-child(4)::before { background: linear-gradient(90deg, transparent, var(--nvidia), transparent); }
+    .eco-card:nth-child(5)::before { background: linear-gradient(90deg, transparent, var(--red), transparent); }
+    .eco-card:nth-child(6)::before { background: linear-gradient(90deg, transparent, var(--amber), transparent); }
+
+    .eco-icon { font-size: 24px; margin-bottom: 16px; }
+    .eco-name { font-family: var(--font-display); font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    .eco-desc { font-family: var(--font-mono); font-size: 10px; color: var(--text-dim); line-height: 1.7; letter-spacing: 0.3px; margin-bottom: 16px; flex: 1; }
+    .eco-tag {
+      align-self: flex-start;
+      font-family: var(--font-mono); font-size: 9px; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 12px;
+      border-radius: 999px;
+    }
+    .eco-tag.live { color: var(--green); background: rgba(52,211,153,0.08); border: 1px solid rgba(52,211,153,0.15); }
+    .eco-tag.active { color: var(--cyan); background: rgba(0,240,255,0.08); border: 1px solid rgba(0,240,255,0.15); }
+    .eco-tag.secure { color: var(--red); background: rgba(242,54,69,0.08); border: 1px solid rgba(242,54,69,0.15); }
+    .eco-tag.roadmap { color: var(--purple); background: rgba(168,85,247,0.08); border: 1px solid rgba(168,85,247,0.15); }
+    .eco-link {
+      font-family: var(--font-mono); font-size: 10px; color: var(--cyan);
+      text-decoration: none; margin-top: 12px; letter-spacing: 0.5px;
+      transition: opacity 0.2s ease;
+    }
+    .eco-link:hover { opacity: 0.7; }
+
+    /* ═══ HARDWARE STRIP ═══ */
+    .hw-strip {
+      display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin-bottom: 16px;
+    }
+    .hw-item {
+      background: var(--bg-card); border: 1px solid var(--border-glass);
+      border-radius: 12px; padding: 18px 14px; text-align: center;
+      transition: border-color 0.3s ease;
+    }
+    .hw-item:hover { border-color: var(--border-hover); }
+    .hw-icon { font-size: 20px; margin-bottom: 10px; display: block; }
+    .hw-label {
+      font-family: var(--font-mono); font-size: 8.5px; color: var(--text-dim);
+      letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 6px;
+    }
+    .hw-value { font-family: var(--font-display); font-size: 12px; font-weight: 700; color: #fff; line-height: 1.3; }
+
+    /* ═══ TIMELINE ═══ */
+    .timeline { position: relative; padding-left: 44px; margin-bottom: 16px; }
+    .timeline::before {
+      content: ''; position: absolute; left: 14px; top: 0; bottom: 0; width: 1px;
+      background: linear-gradient(180deg, transparent, var(--cyan-dim) 10%, var(--purple) 90%, transparent);
+    }
+
+    .tl-item { position: relative; margin-bottom: 36px; }
+    .tl-item:last-child { margin-bottom: 0; }
+
+    .tl-node {
+      position: absolute; left: -44px; top: 4px;
+      width: 11px; height: 11px; border-radius: 50%;
+      border: 2px solid var(--cyan); background: var(--bg-void);
+      transform: translateX(9px);
+    }
+    .tl-item.done .tl-node { border-color: var(--green); }
+    .tl-item.current .tl-node { border-color: var(--amber); }
+    .tl-item.future .tl-node { border-color: var(--purple); }
+
+    .tl-date {
+      font-family: var(--font-mono); font-size: 11px; color: var(--text-dim);
+      letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px;
+    }
+    .tl-title { font-family: var(--font-display); font-size: 16px; font-weight: 600; color: #fff; margin-bottom: 4px; }
+    .tl-desc { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+    /* ═══ PHILOSOPHY SECTION ═══ */
+    .philosophy {
+      background: var(--bg-card); border: 1px solid var(--border-glass);
+      border-radius: 18px; padding: 40px 36px; text-align: center;
+      margin-bottom: 40px; position: relative; overflow: hidden;
+    }
+    .philosophy::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--cyan), var(--purple), transparent);
+      opacity: 0.5;
+    }
+    .philosophy .quote {
+      font-family: var(--font-display); font-size: clamp(18px, 3vw, 26px);
+      font-weight: 600; color: #fff; line-height: 1.5; letter-spacing: -0.5px;
+      max-width: 700px; margin: 0 auto 20px;
+    }
+    .philosophy .quote .hl { color: var(--cyan); }
+    .philosophy .attribution {
+      font-family: var(--font-mono); font-size: 11px; color: var(--text-dim);
+      letter-spacing: 1.5px; text-transform: uppercase;
+    }
+
+    /* ═══ TOOLS & TECH ═══ */
+    .tech-cloud {
+      display: flex; flex-wrap: wrap; gap: 10px;
+      justify-content: center; margin-bottom: 40px;
+    }
+    .tech-pill {
+      padding: 6px 18px; font-family: var(--font-mono); font-size: 11px; font-weight: 500;
+      letter-spacing: 0.8px; color: var(--text-muted);
+      background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 999px; transition: border-color 0.2s ease, color 0.2s ease;
+    }
+    .tech-pill:hover { border-color: var(--border-hover); color: var(--cyan); }
+
+    /* ═══ CTA ═══ */
+    .final-cta {
+      display: block; width: 100%; text-align: center; padding: 22px;
+      font-family: var(--font-mono); font-size: 14px; font-weight: 700;
+      letter-spacing: 2px; text-transform: uppercase; text-decoration: none;
+      color: var(--bg-void); background: linear-gradient(135deg, var(--cyan), var(--purple));
+      border-radius: 14px; margin-bottom: 24px;
+      transition: opacity 0.25s ease, transform 0.25s ease;
+    }
+    .final-cta:hover { opacity: 0.88; transform: translateY(-2px); }
+
+    /* ═══ FOOTER ═══ */
+    .status-bar {
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 12px; padding: 16px 24px; background: #060a18;
+      border: 1px solid var(--border-glass); border-radius: 12px;
+      font-family: var(--font-mono); font-size: 11px; color: var(--text-dim);
+    }
+    .sb-indicator { display: flex; align-items: center; gap: 8px; }
+    .sb-dot { width: 7px; height: 7px; background: var(--cyan); border-radius: 50%; animation: pulse-dot 2.5s ease-in-out infinite; }
+    .sb-live { color: var(--cyan); font-weight: 500; }
+    .sb-link { color: var(--text-muted); text-decoration: none; transition: color 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+    .sb-link:hover { color: var(--cyan); }
+    .sb-link svg { width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .sb-sig { color: var(--text-dim); }
+    .sb-sig span { color: var(--cyan); font-weight: 700; }
+
+    /* ═══ RESPONSIVE ═══ */
+    @media (max-width: 900px) {
+      .eco-grid { grid-template-columns: repeat(2, 1fr); }
+      .hw-strip { grid-template-columns: repeat(3, 1fr); }
+      .expertise-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 700px) {
+      .about-grid { grid-template-columns: 1fr; }
+      .trading-grid { grid-template-columns: 1fr; }
+      .hero-stats { gap: 24px; }
+      .hero-stat-num { font-size: 26px; }
+    }
+    @media (max-width: 640px) {
+      .page-wrapper { padding: 0 16px 80px; }
+      .top-nav { margin: 0 -16px 0; padding: 14px 16px; }
+      .nav-brand-name { font-size: 14px; }
+      .nav-home-btn { padding: 8px 14px; font-size: 11px; }
+      .hero { padding: 60px 0 50px; }
+      .hero-name { letter-spacing: -2px; }
+      .eco-grid { grid-template-columns: 1fr; }
+      .hw-strip { grid-template-columns: repeat(2, 1fr); }
+      .expertise-grid { grid-template-columns: 1fr; }
+      .philosophy { padding: 28px 22px; }
+      .status-bar { flex-direction: column; align-items: flex-start; gap: 8px; padding: 14px 18px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg-ambient"></div>
+
+  <div class="page-wrapper">
+
+    <!-- NAV -->
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="https://bhvsy.github.io" class="nav-brand" aria-label="Bhvsy OS Home">
+        <img src="/favicon-32x32.png" alt="Bhvsy OS Logo" class="nav-logo" width="34" height="34" />
+        <div class="nav-brand-text">
+          <span class="nav-brand-name">Bhvsy OS</span>
+          <span class="nav-brand-sub">The Ultimate Guide</span>
+        </div>
+      </a>
+      <a href="https://bhvsy.github.io" class="nav-home-btn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6" /></svg>
+        Home
+      </a>
+    </nav>
+
+    <!-- ═══════════════════════════════════
+         HERO
+         ═══════════════════════════════════ -->
+    <header class="hero">
+      <div class="hero-badge">The Ultimate Guide</div>
+      <h1 class="hero-name">
+        BHAVISHYA<br /><span class="glow">PARJAPATI</span>
+      </h1>
+      <div class="hero-titles">
+        <span class="hero-title-item">Digital Architect</span>
+        <span class="hero-title-sep">·</span>
+        <span class="hero-title-item">Master Trader</span>
+        <span class="hero-title-sep">·</span>
+        <span class="hero-title-item">Tool Builder</span>
+        <span class="hero-title-sep">·</span>
+        <span class="hero-title-item">Founder of Bhvsy OS</span>
+      </div>
+      <p class="hero-tagline">
+        Building the intersection of <strong>financial markets</strong>,
+        <strong>artificial intelligence</strong>, and <strong>digital infrastructure</strong> --
+        one system at a time.
+      </p>
+      <div class="hero-cta-row">
+        <a href="https://bhvsy.github.io" class="cta-primary">Explore the Ecosystem</a>
+        <a href="#ecosystem-map" class="cta-secondary">View All Projects</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num cy" id="stat-projects">0</div>
+          <div class="hero-stat-label">Projects Built</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num pu" id="stat-pages">0</div>
+          <div class="hero-stat-label">OS Pages Live</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num gr" id="stat-markets">0</div>
+          <div class="hero-stat-label">Markets Traded</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num am" id="stat-gpu">0</div>
+          <div class="hero-stat-label">TFLOPS GPU Power</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ═══════════════════════════════════
+         01 -- IDENTITY
+         ═══════════════════════════════════ -->
+    <div class="section-divider">
+      <span class="div-label"><span class="div-num">01</span>Identity</span>
+    </div>
+
+    <section class="about-grid">
+
+      <div class="about-card">
+        <h2><span class="emoji">🧬</span> Profile</h2>
+        <div class="id-row">
+          <span class="id-label">Full Name</span>
+          <span class="id-value">Bhavishya Parjapati</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">Alias</span>
+          <span class="id-value cy">Bhvsy</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">Role</span>
+          <span class="id-value">Digital Architect</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">Trading Style</span>
+          <span class="id-value">Institutional Trader</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">Current Focus</span>
+          <span class="id-value am">Academic Sabbatical</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">Academics</span>
+          <span class="id-value">10th Grade HBSE</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">OS</span>
+          <span class="id-value cy">Bhvsy OS</span>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <h2><span class="emoji">📖</span> About</h2>
+        <p>
+          <strong>Bhavishya Parjapati</strong> is a self-taught digital architect who operates
+          at the intersection of <strong>financial markets</strong>, <strong>software engineering</strong>,
+          and <strong>generative AI</strong>.
+        </p>
+        <p style="margin-top: 14px;">
+          He specializes in <strong>algorithmic trading systems</strong> and <strong>manual price
+          action strategies</strong>, focusing on high-probability setups in <strong>Forex</strong>
+          and <strong>Cryptocurrency</strong> markets. He also builds custom developer tools --
+          including Chrome extensions and Progressive Web Apps -- and runs local AI inference
+          on his own GPU infrastructure.
+        </p>
+        <div class="highlight-block">
+          <span class="hl">Mission:</span> Build systems that trade, think, and ship -- without
+          depending on anyone else's cloud, platform, or permission.
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════
+         02 -- EXPERTISE
+         ═══════════════════════════════════ -->
+    <div class="section-divider">
+      <span class="div-label"><span class="div-num">02</span>Expertise</span>
+    </div>
+
+    <section class="expertise-grid">
+      <div class="exp-card">
+        <span class="exp-icon">📈</span>
+        <div class="exp-title">Trading</div>
+        <div class="exp-desc">Forex & Crypto markets · Supply & Demand · Institutional Order Flow · Price Action</div>
+      </div>
+      <div class="exp-card">
+        <span class="exp-icon">💻</span>
+        <div class="exp-title">Web Development</div>
+        <div class="exp-desc">PWAs · Chrome Extensions · HTML/CSS/JS · SEO Optimization · Responsive UI</div>
+      </div>
+      <div class="exp-card">
+        <span class="exp-icon">🤖</span>
+        <div class="exp-title">Artificial Intelligence</div>
+        <div class="exp-desc">Stable Diffusion XL · LoRA Training · ControlNet · Local GPU Inference</div>
+      </div>
+      <div class="exp-card">
+        <span class="exp-icon">🛡️</span>
+        <div class="exp-title">System Architecture</div>
+        <div class="exp-desc">Brand Ecosystems · Digital Infrastructure · Hardware Optimization · Security</div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         03 -- TRADING PROFILE
+         ═══════════════════════════════════ -->
+    <div class="section-divider">
+      <span class="div-label"><span class="div-num">03</span>Trading Profile</span>
+    </div>
+
+    <section class="trading-grid">
+
+      <div class="trading-card">
+        <h2>Strategy Framework</h2>
+        <div class="id-row">
+          <span class="id-label">Method</span>
+          <span class="id-value">Supply &amp; Demand</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">Approach</span>
+          <span class="id-value">Price Action</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">Edge</span>
+          <span class="id-value">Institutional Order Flow</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">Risk Ratio</span>
+          <span class="id-value cy">1 : 3 RR</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">Focus</span>
+          <span class="id-value">High-Probability Setups</span>
+        </div>
+        <div class="id-row">
+          <span class="id-label">Execution</span>
+          <span class="id-value">Manual + Algorithmic</span>
+        </div>
+      </div>
+
+      <div class="trading-card">
+        <h2>Preferred Instruments</h2>
+        <div class="pair-row">
+          <span class="pair-name">XAU / USD</span>
+          <span class="pair-market pm-forex">Forex</span>
+        </div>
+        <div class="pair-row">
+          <span class="pair-name">BTC / USD</span>
+          <span class="pair-market pm-crypto">Crypto</span>
+        </div>
+        <div class="pair-row">
+          <span class="pair-name">EUR / USD</span>
+          <span class="pair-market pm-forex">Forex</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════
+         04 -- ECOSYSTEM MAP
+         ═══════════════════════════════════ -->
+    <div class="section-divider" id="ecosystem-map">
+      <span class="div-label"><span class="div-num">04</span>Ecosystem Map</span>
+    </div>
+
+    <section class="eco-grid">
+
+      <a href="https://bhvsy.github.io/system-updates/" class="eco-card">
+        <span class="eco-icon">📡</span>
+        <div class="eco-name">System Updates</div>
+        <div class="eco-desc">Chronological changelog and dispatch log -- every deployment, release, and roadmap shift documented.</div>
+        <span class="eco-tag live">Live</span>
+        <span class="eco-link">→ /system-updates/</span>
+      </a>
+
+      <a href="https://bhvsy.github.io/trading-terminal/" class="eco-card">
+        <span class="eco-icon">📊</span>
+        <div class="eco-name">Trading Terminal</div>
+        <div class="eco-desc">Live market data for XAU/USD, BTC/USD, EUR/USD with real-time API feeds and forex session tracking.</div>
+        <span class="eco-tag live">Live</span>
+        <span class="eco-link">→ /trading-terminal/</span>
+      </a>
+
+      <a href="https://bhvsy.github.io/ai-nexus/" class="eco-card">
+        <span class="eco-icon">🧠</span>
+        <div class="eco-name">AI Nexus</div>
+        <div class="eco-desc">Synthetic media lab -- Stable Diffusion workflows, LoRA training experiments, and diffusion model research.</div>
+        <span class="eco-tag active">Active</span>
+        <span class="eco-link">→ /ai-nexus/</span>
+      </a>
+
+      <a href="https://bhvsy.github.io/my-setup/" class="eco-card">
+        <span class="eco-icon">🖥️</span>
+        <div class="eco-name">My Setup</div>
+        <div class="eco-desc">RTX 4060 command center -- hardware specs, software stack, and build philosophy.</div>
+        <span class="eco-tag active">Active</span>
+        <span class="eco-link">→ /my-setup/</span>
+      </a>
+
+      <a href="https://bhvsy.github.io/the-vault/" class="eco-card">
+        <span class="eco-icon">🔐</span>
+        <div class="eco-name">The Vault</div>
+        <div class="eco-desc">Encrypted file repository -- trading algorithms, system configs, AI weights, and classified operational data.</div>
+        <span class="eco-tag secure">Secured</span>
+        <span class="eco-link">→ /the-vault/</span>
+      </a>
+
+      <a href="https://bhvsy.github.io/TheUltimateGuide" class="eco-card">
+        <span class="eco-icon">📘</span>
+        <div class="eco-name">The Ultimate Guide</div>
+        <div class="eco-desc">You are here -- the definitive profile and complete ecosystem map of Bhavishya Parjapati.</div>
+        <span class="eco-tag active">You Are Here</span>
+        <span class="eco-link">→ /TheUltimateGuide</span>
+      </a>
+
+    </section>
+
+    <!-- ═══════════════════════════════════
+         05 -- PRODUCTS BUILT
+         ═══════════════════════════════════ -->
+    <div class="section-divider">
+      <span class="div-label"><span class="div-num">05</span>Products Built</span>
+    </div>
+
+    <section class="about-grid">
+
+      <div class="about-card">
+        <h2><span class="emoji">🌐</span> Bhvsy OS Core Portal</h2>
+        <p>
+          Complete <strong>brand overhaul</strong> of the main digital ecosystem. Geometric
+          <strong>'B' logo architecture</strong>, fully configured <strong>PWA manifest</strong>
+          for native mobile installation, and optimized global <strong>SEO metadata</strong>.
+        </p>
+        <div class="highlight-block">
+          <span class="hl">Status:</span> Deployed · March 2026
+        </div>
+      </div>
+
+      <div class="about-card">
+        <h2><span class="emoji">🛡️</span> News Guard Extension</h2>
+        <p>
+          Custom-built <strong>Chrome/Edge extension</strong> for funded prop firm traders.
+          Features <strong>real-time alerts</strong> and <strong>smart countdown timers</strong>
+          to protect from high-impact news slippage and compliance violations.
+        </p>
+        <div class="highlight-block">
+          <span class="hl">Status:</span> Released · Q1 2026
+        </div>
+      </div>
+
+      <div class="about-card full-width">
+        <h2><span class="emoji">🤖</span> AI Trading Journal -- On the Roadmap</h2>
+        <p>
+          An <strong>AI-powered financial trading journal</strong> leveraging
+          <strong>local AI models</strong> running on the in-house <strong>MSI RTX 4060 GPU</strong>.
+          Designed for deep pattern recognition, emotional bias detection, and autonomous trade analysis.
+          This will be the most ambitious Bhvsy OS project to date.
+        </p>
+        <div class="highlight-block">
+          <span class="hl">Status:</span> Pre-Alpha · Coming Soon
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════
+         06 -- HARDWARE
+         ═══════════════════════════════════ -->
+    <div class="section-divider">
+      <span class="div-label"><span class="div-num">06</span>Hardware</span>
+    </div>
+
+    <section class="hw-strip">
+      <div class="hw-item">
+        <span class="hw-icon">🟢</span>
+        <div class="hw-label">GPU</div>
+        <div class="hw-value">RTX 4060</div>
+      </div>
+      <div class="hw-item">
+        <span class="hw-icon">🔵</span>
+        <div class="hw-label">CPU</div>
+        <div class="hw-value">i5 12th Gen</div>
+      </div>
+      <div class="hw-item">
+        <span class="hw-icon">🟣</span>
+        <div class="hw-label">RAM</div>
+        <div class="hw-value">16GB DDR4</div>
+      </div>
+      <div class="hw-item">
+        <span class="hw-icon">🔷</span>
+        <div class="hw-label">Storage</div>
+        <div class="hw-value">1TB NVMe</div>
+      </div>
+      <div class="hw-item">
+        <span class="hw-icon">🟡</span>
+        <div class="hw-label">Display</div>
+        <div class="hw-value">165Hz IPS</div>
+      </div>
+      <div class="hw-item">
+        <span class="hw-icon">⚡</span>
+        <div class="hw-label">VRAM</div>
+        <div class="hw-value">8GB GDDR6</div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         07 -- JOURNEY
+         ═══════════════════════════════════ -->
+    <div class="section-divider">
+      <span class="div-label"><span class="div-num">07</span>Journey</span>
+    </div>
+
+    <section class="timeline">
+
+      <div class="tl-item done">
+        <div class="tl-node"></div>
+        <div class="tl-date">Q1 2026</div>
+        <div class="tl-title">News Guard Extension Released</div>
+        <div class="tl-desc">Shipped a custom Chrome/Edge extension for prop firm traders with real-time news alerts and countdown timers.</div>
+      </div>
+
+      <div class="tl-item done">
+        <div class="tl-node"></div>
+        <div class="tl-date">March 2026</div>
+        <div class="tl-title">Bhvsy OS Core Portal Deployed</div>
+        <div class="tl-desc">Complete ecosystem overhaul -- geometric logo, PWA manifest, global SEO, and multi-page architecture.</div>
+      </div>
+
+      <div class="tl-item current">
+        <div class="tl-node"></div>
+        <div class="tl-date">Current</div>
+        <div class="tl-title">Academic Sabbatical</div>
+        <div class="tl-desc">Operations scaled back to dominate 10th-grade HBSE Board Exams. Core systems remain online.</div>
+      </div>
+
+      <div class="tl-item future">
+        <div class="tl-node"></div>
+        <div class="tl-date">Upcoming</div>
+        <div class="tl-title">AI Trading Journal -- Pre-Alpha</div>
+        <div class="tl-desc">AI-powered trading journal with local LLM inference on RTX 4060. Pattern recognition and trade analysis.</div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════
+         08 -- PHILOSOPHY
+         ═══════════════════════════════════ -->
+    <div class="section-divider">
+      <span class="div-label"><span class="div-num">08</span>Philosophy</span>
+    </div>
+
+    <div class="philosophy">
+      <div class="quote">
+        "Build your own infrastructure. Run your own models.
+        Trade your own edge. <span class="hl">Depend on no one.</span>"
+      </div>
+      <div class="attribution">-- Bhavishya Parjapati</div>
+    </div>
+
+    <!-- ═══════════════════════════════════
+         09 -- TECH STACK
+         ═══════════════════════════════════ -->
+    <div class="section-divider">
+      <span class="div-label"><span class="div-num">09</span>Tech Stack</span>
+    </div>
+
+    <div class="tech-cloud">
+      <span class="tech-pill">HTML5</span>
+      <span class="tech-pill">CSS3</span>
+      <span class="tech-pill">JavaScript</span>
+      <span class="tech-pill">PWA</span>
+      <span class="tech-pill">Chrome Extensions</span>
+      <span class="tech-pill">Manifest V3</span>
+      <span class="tech-pill">SEO</span>
+      <span class="tech-pill">Stable Diffusion XL</span>
+      <span class="tech-pill">LoRA Training</span>
+      <span class="tech-pill">ControlNet</span>
+      <span class="tech-pill">Midjourney</span>
+      <span class="tech-pill">CUDA</span>
+      <span class="tech-pill">RTX 4060</span>
+      <span class="tech-pill">NVMe Gen4</span>
+      <span class="tech-pill">TradingView</span>
+      <span class="tech-pill">MetaTrader</span>
+      <span class="tech-pill">Price Action</span>
+      <span class="tech-pill">Order Flow</span>
+      <span class="tech-pill">Supply &amp; Demand</span>
+      <span class="tech-pill">Windows 11</span>
+      <span class="tech-pill">VS Code</span>
+      <span class="tech-pill">Git / GitHub</span>
+      <span class="tech-pill">JSON-LD</span>
+      <span class="tech-pill">Schema.org</span>
+    </div>
+
+    <!-- ═══ FINAL CTA ═══ -->
+    <a href="https://bhvsy.github.io" class="final-cta">Enter the Bhvsy OS Ecosystem →</a>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="status-bar">
+      <div class="sb-indicator">
+        <span class="sb-dot"></span>
+        <span class="sb-live">ALL SYSTEMS NOMINAL</span>
+      </div>
+      <a href="https://bhvsy.github.io" class="sb-link">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <polyline points="9 22 9 12 15 12 15 22" />
+        </svg>
+        bhvsy.github.io
+      </a>
+      <span class="sb-sig">built by <span>Bhavishya Parjapati</span></span>
+    </footer>
+
+  </div>
+
+  <script>
+    /* ═══════════════════════════════════════
+       ANIMATED HERO STAT COUNTERS
+       ═══════════════════════════════════════ */
+    function countUp(id, target, duration, decimal) {
+      var el = document.getElementById(id);
+      if (!el) return;
+      var start = performance.now();
+      function tick(now) {
+        var p = Math.min((now - start) / duration, 1);
+        var eased = 1 - Math.pow(1 - p, 3);
+        var current = eased * target;
+        el.textContent = decimal ? current.toFixed(1) : Math.round(current);
+        if (p < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    }
+
+    /* Trigger when hero is visible */
+    var heroObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          countUp('stat-projects', 3, 1400, false);
+          countUp('stat-pages', 6, 1400, false);
+          countUp('stat-markets', 3, 1200, false);
+          countUp('stat-gpu', 15.1, 1600, true);
+          heroObserver.disconnect();
+        }
+      });
+    }, { threshold: 0.3 });
+
+    var heroStats = document.querySelector('.hero-stats');
+    if (heroStats) heroObserver.observe(heroStats);
+  </script>
+
+</body>
+</html>
